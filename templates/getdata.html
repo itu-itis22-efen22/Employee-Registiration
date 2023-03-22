@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="/static/getdata.css">
+    <link rel = "icon" href = "/static/lamaicon.png" type = "image/x-icon">
+    <title>Kayıt Otomasyonu</title>
+</head>
+<body>
+
+<h1>Kayıt otomasyonu</h1>
+
+<div class="form">
+    <h2> <i class="material-icons">cloud</i> Çalışan Bilgileri</h2>
+
+    <form method="post">
+        <label for="name"> Çalışanın ismi: </label>
+        <input type="text" id="name" name="name" required minlength="5" maxlength="30" pattern="[a-zA-Z]+">
+        <br>
+        <label for="birthdate">Doğum tarihi: </label>
+        <input type="date" id="birthdate" name="birthdate" required>
+        <br>
+        <label for="phonenumber"> Telefon numarası: </label>
+        <input type="tel" id="phonenumber" name="phonenumber" placeholder="format: 123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" data-validation="required phonenumber" data-pattern-error="Yalnızca rakamları kullanabilirsiniz">
+        <br>
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email" data-validation="required email" >
+        <br>
+        <label for="workdate"> Çalışmaya başlama tarihi: </label>
+        <input type="date" id="workdate" name="workdate" required>
+        <br>
+        <button>Gönder</button>
+
+    </form>
+</div>
+
+</body>
+</html>

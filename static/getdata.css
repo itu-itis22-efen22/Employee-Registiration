@@ -1,0 +1,53 @@
+body {
+    background-color:aliceblue;
+}
+
+h1 {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h2 {
+    background-color: rgb(152, 32, 80);
+    color: white;
+    font-weight: 150;
+    padding-left: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 10px;
+}
+
+form {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: left;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form label {
+    margin-left: 5%;
+    margin-bottom: 5px; 
+    padding-right: 15px;
+    border-radius: 15px;
+}
+
+input {
+    margin-bottom: 5px; 
+    background-color:aliceblue;
+    padding-right: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    width:450px;
+    float:right;
+
+}
+
+button {
+    margin-left: 15%;
+    margin-top: 15px; 
+    float:right;
+    background-color: azure;
+    border-radius: 5px;
+    
+}
